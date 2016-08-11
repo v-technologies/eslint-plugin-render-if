@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-render-if",
+  "version": "0.1.0",
+  "description": "ESLint rules for render-if",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "render-if"
+  ],
+  "author": "Félix Girault <felix.girault@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "mocha": "^3.0.2"
+  }
+}
